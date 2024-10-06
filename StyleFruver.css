@@ -83,9 +83,43 @@ body{
     height: 400px;
 }
 
+.espaciadoDiv2{
+    height: 200px;
+}
+
 .decorationNone{        /*elimina el subrayado y el texto azul*/
     text-decoration: none;
 }
+
+/*/////////estilos de la paginaPrincipal//////////////*/
+
+.bg-image3{         /*imagen de fondo de la pagina*/
+    background-image: url(Images/imgFondoPlatanos.jpg);
+    background-attachment: fixed;
+
+}
+
+/*/////////estilos de ActualizarInventario//////////////*/
+
+.bg-image4{
+    background-image: url(Images/imgFondoPapa.jpg);
+    background-attachment: fixed;
+}
+
+.alturaTabla{
+    height: 200px;
+    overflow-y: auto;
+}
+
+.imput{
+    background-color: rgb(239, 219, 120);
+}
+
+.anchoContenedorImput{
+    width: 60%;
+    margin-left: 20%;
+}
+
 
 /*/////////estilos de la paginaPrincipal//////////////*/
 

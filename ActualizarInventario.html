@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zapatoca La 38 - Actualizar</title>     <!--nombre de la pestaña de la pagina-->
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">        <!--el link para vincular el archivo html con los archivos de BootStrap--> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    <!--ayuda con la parte del responsive de la pagina-->
+  <link rel="stylesheet" href="StyleFruver.css">  <!--vincula el archivo html con el css estilosFruver-->  
+    
+</head>
+<body class="bg-image4">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top shadow">  <!--crear un navbar por medio de bootstrap-->
+        <div class="container-fluid ">      <!--contenedor del navbar-->
+          <a class="navbar-brand " href="#">
+            <img src="Images/LogoZapatoca.png" alt="LogoFruver" width="150px">     <!--imagen del logo del fruver-->
+          </a>
+          <!--se crea un boton para los elementos del navbar para hacerlo responsive-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" >
+            <ul class="navbar-nav  mb-2 mb-lg-0" >  <!--lista de opciones para agregar al navbar-->
+              <li class="nav-item">
+                <a class="nav-link active text-success" aria-current="page" href="PaginaPrincipal.html">   <!--Elemento de la lista de opciones del navbar -->
+                    <h2>
+                        Inicio
+                    </h2>
+                </a>
+              </li>
+              <li class="nav-item ">        <!--Elemento de la lista de opciones del navbar -->
+                <a class="nav-link text-success me-4" href="OpcionesInventario.html">
+                    <h2>
+                        Menu
+                    </h2>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a href="LoginFruver.html">
+                    <button class="btn btn-success">        <!--opcion del navbar para cerrar sesion-->
+                        Cerrar Sesion
+                    </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="espaciadoDiv "></div> <!--div para separar el navbar y el contenido de la pagina-->
+
+    <div class="bg-light" >   <!--contenedor principal-->
+        <div class="d-flex justify-content-center">   
+            <h1 class="text-decoration-underline text-black ">  <!--titulo del contenido-->
+                Actualizar Inventario
+            </h1>
+        </div>
+        <br>
+        <br>
+        <div class=" d-flex  justify-content-center">   <!--contenedor de la tabla de productos-->
+            <div class="col-6 alturaTabla">     <!--altura y configuración de una sola columna de la tabla-->
+                <table class="table table-warning table-responsive table-striped table-hover">
+                    <thead class="table-dark">
+                        <th class="text-center">  <!--cabeza de la tabla-->
+                          <h4>
+                            Lista de Productos  <!--titulo de la tabla-->
+                          </h4>
+                        </th>
+                    </thead>
+                    <tbody class="text-center"> <!--cuerpo de la tabla-->
+                      <!--tr significa fila -->
+                      <!--td significa columnas-->
+                      <!--h4 para hacer la letra en negrilla y de mayor tamaño-->
+                        <tr>  
+                            <td>
+                                <h4>
+                                  Producto 1
+                                </h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              <h4>
+                                Producto 2
+                              </h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              <h4>
+                                Producto 3
+                              </h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              <h4>
+                                Producto 4
+                              </h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              <h4>
+                                Producto 5
+                              </h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              <h4>
+                                Producto 6
+                              </h4>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--Espacio entre lista de productos y los imputs-->
+        <br>
+        <br>
+        <br>
+
+        <div class="anchoContenedorImput ">   <!--contenedor para los inputs-->
+            <div class="row">  <!--div para la fila 1 de inputs-->
+                <div class=" col-sm-6">   <!--definimos una columna responsive-->
+                    <h2 class="text-center ">
+                        Cantidad 
+                    </h2>
+                    <input class="form-control imput " type="text" placeholder="unidad/lb"> <!--genero el input para ingresar texto-->
+                </div>
+                <div class="col-sm-6" > <!--definimos una columna responsive-->
+                    <h2 class="text-center ">
+                        Precio Proveedor
+                    </h2>
+                    <input class="form-control imput " type="text" placeholder="precio">  <!--genero el input para ingresar texto-->
+                </div>
+                <div class=" col-sm-6">   <!--definimos una columna responsive-->
+                    <h2 class="text-center ">
+                        N° Lote
+                    </h2>
+                    <input class="form-control imput " type="text" placeholder="lote">  <!--genero el input para ingresar texto-->
+                </div>
+                
+                <div class="  col-sm-6">    <!--definimos una columna responsive-->
+                    <h2 class="text-center ">
+                        Proveedor
+                    </h2>
+                    <input class="form-control imput" type="text" placeholder="proveedor">  <!--genero el input para ingresar texto-->
+                </div>
+            </div>
+            <br>    
+            <div class="row">   <!--Div para la segunda fila de inputs-->
+                <div class="  col-sm-6">    <!--definimos una columna responsive-->
+                    <h2 class="text-center ">
+                        Estado
+                    </h2>
+                    <input class="form-control imput" type="text" placeholder="estado">   <!--genero el input para ingresar texto-->
+                </div>
+                <div class="col-4"> <!--div vacio en caso de tener que agregar otra colmna-->
+                </div>
+            </div>
+            <br>    <!--espacios  pequeños para separar-->
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <div>
+            <div class="row"> <!--div para hacer agregar los botones -->
+                <div class="col-6 d-flex justify-content-center">   <!--definimos una columna responsive-->
+                    <button class="btn btn-danger">   <!--genera un boton con estilo de bootstrap-->
+                        <h3>
+                            Actualizar Producto
+                        </h3>
+                    </button>
+                </div>
+                <div class="col-6 d-flex justify-content-center">   <!--definimos una columna responsive-->
+                    <button class="btn btn-success">    <!--genera un boton con estilo de bootstrap-->
+                        <a class="decorationNone text-white" href="PaginaPrincipal.html">
+                          <h3>
+                            Consultar Inventario
+                          </h3>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="espaciadoDiv2">   <!--div vacio para separar el contenido de la pagina y el footer-->
+    </div>
+
+<!--inicio del footer-->
+<footer class="bg-dark text-white  pt-5 pb-4">  <!--estilos para textos y contenedores-->
+    <div class="container text-center text-md-left">  <!--contenedor del footer-->
+      <div class="row text-center text-md-left">    <!--columna para los autores-->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"> <!--columna para los autores-->
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+            Autores 
+          </h5>
+          <p>
+            <a href="#" class="text-white decorationNone">  <!--autor 1-->
+              Oscar David Moreno Cote
+            </a>
+          </p>
+          <p>
+            <a href="#" class="text-white decorationNone">  <!--autor 2-->
+              Nicolas Sarmiento Gómez
+            </a>
+          </p>
+          <p>
+            <a href="#" class="text-white decorationNone">    <!--autor 3-->
+              Jhon Mario Almendrales Carreño 
+            </a>
+          </p>
+        </div>
+  
+  
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"> <!--columna para los contactos-->
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+            Contactos
+          </h5>
+          <p>
+            <a href="#" class="text-white decorationNone">
+              WhatsApp: 322 259 2280
+            </a>
+          </p>
+          <p>
+            <a href="#" class="text-white decorationNone">
+              Correo: omoreo7@udi.edu.co
+            </a>
+          </p>
+        </div>
+  
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">   <!--columna para las dirrecciones-->
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+            Dirrección
+          </h5>
+          <p>
+            <a href="#" class="text-white decorationNone">
+              UDI: Calle 9 No. 23-55-Bucaramanga
+            </a>
+          </p>
+          <p>
+            <a href="#" class="text-white decorationNone">
+              Cll 204a #38a-27-Floridablanca
+            </a>
+          </p>
+        </div>
+  
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">   <!--columna para las redes sociales-->
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+            Siguenos
+          </h5>
+          <p>
+            <a href="#" class="text-white decorationNone">  
+              <img src="Images/instagram.png" alt="logoInstagram">
+              oscar_cotte7
+            </a>
+          </p>
+          <p>
+            <a href="#" class="text-white decorationNone">
+              <img src="Images/instagram.png" alt="logoInstagram">
+              udi_oficial
+            </a>
+          </p>
+        </div>
+        <div class="row  align-items-center">   <!--fila para agregar el copyright-->
+          <div class="col-md-7 col-lg-8">   <!--columna para agrefar el copyright-->
+            <p>
+              Copyright ©2024 All rights reserved by:
+              <a class="decorationNone" href="#">
+                <strong class="text-warning">   <!--texto para resaltar-->
+                  TheCotte
+                </strong>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>   <!--link para tener las funcionalidades de javaScript de Bootstrap-->
+  </body>
+</html>
