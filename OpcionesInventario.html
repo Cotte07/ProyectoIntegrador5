@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zapatoca La 38 - Menu</title>     <!--nombre de la pestaña de la pagina-->
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">        <!--el link para vincular el archivo html con los archivos de BootStrap--> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    <!--ayuda con la parte del responsive de la pagina-->
+  <link rel="stylesheet" href="StyleFruver.css">  <!--vincula el archivo html con el css estilosFruver-->  
+    
+</head>
+<body class="bg-image2">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top shadow">  <!--crear un navbar por medio de bootstrap-->
+        <div class="container-fluid ">      <!--contenedor del navbar-->
+          <a class="navbar-brand " href="#">
+            <img src="Images/LogoZapatoca.png" alt="LogoFruver" width="150px">     <!--imagen del logo del fruver-->
+          </a>
+          <!--se crea un boton para los elementos del navbar para hacerlo responsive-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" >
+            <ul class="navbar-nav  mb-2 mb-lg-0" >  <!--lista de opciones para agregar al navbar-->
+              <li class="nav-item">
+                <a class="nav-link active text-success" aria-current="page" href="PaginaPrincipal.html">   <!--Elemento de la lista de opciones del navbar -->
+                    <h2>
+                        Inicio
+                    </h2>
+                </a>
+              </li>
+              <li class="nav-item ">        <!--Elemento de la lista de opciones del navbar -->
+                <a class="nav-link text-success me-4" href="OpcionesInventario.html">
+                    <h2>
+                        Menu
+                    </h2>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a href="LoginFruver.html">
+                    <button class="btn btn-success">        <!--opcion del navbar para cerrar sesion-->
+                        Cerrar Sesion
+                    </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+<!--espacios en blanco para separar los div-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!--Texto de bienvenida a opciones de inventario-->
+    <div class=" d-flex  align-items-center mt-5 text-black card shadow-sm opacity-50 alturaContenedor">  <!--Contenedor con estilos -->
+        <div class="card-body justify-content-center">  <!--div para agregar el mensaje de bienvenida-->
+            <h1 class="text-center">
+                Bienvenido a Opciones
+            </h1>
+            <h1 class="text-center">
+                de Inventario 
+            </h1>
+        </div>
+    </div>
+<!--espacios en blanco para separar los div-->
+<br>
+<br>
+<br>
+  <!--Contenido de la pagina-->
+    <div class="mt-5 bg-light" >  <!--contenedor del menu de opciones-->
+      <br>
+      <br>  
+      <h2 class="text-center text-black mb-5 text-decoration-underline">  <!--titulo del contenedor-->
+            Menu
+        </h2>
+        <div class="row"> <!--Primera fila del contenedor-->
+            <div class="col-sm-6 text-center text-black mb-5">  <!--Primer columna de la primera fila -->
+              <a href="eliminarproducto.html">  
+                <button class="btn btn-warning">  <!--boton eliminar producto-->
+                  <h3>  <!--texto del boton-->
+                    Eliminar Producto
+                  </h3>
+                </button>
+              </a>
+            </div>
+            <div class="col-sm-6 text-center">  <!--segunda columna de la primera fila-->
+                <button class="btn btn-warning mb-5"> <!--boton eliminar ver historial-->
+                  <h3>  <!--texto del boton-->
+                    Ver Historial
+                  </h3>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">   <!--segunda fila del contenedor-->
+          <div class="col-sm-6 text-center text-black mb-5">  <!--Primera columna de la segunda fila-->
+            <a class="text-button-agregar" href="agregarproductonuevo.html">
+              <button class="btn btn-warning">
+                <h3>Agregar Producto Nuevo</h3>
+              </button> 
+            </a>
+          </div>
+          <div class="col-sm-6 text-center mb-5"> <!--Segunda columna de la segunda fila-->
+            <button class="btn btn-warning">  <!--boton para actualizar inventario-->
+              <h3>  <!--texto del boton-->
+                Actualizar Inventario 
+              </h3>
+            </button>
+        </div>
+      </div>
+    </div>
+<!--boton de alerta flotante-->
+<div class="buttonsNetwork d-flex">                            <!--definiendo el boton-->
+      <a class="buttonsNetwork_list" href="notificaciones.html">             <!--link del boton-->
+        <i class="" aria-hidden="true"><img src="Images/despertador.png" alt="#"></i>  <!--icono representativo del boton(reloj)-->
+        <p class="socialMediaP justify-content-center">
+          ¡Mira tus alertas!
+        </p>
+      </a>
+</div>
+
+<div class="espaciadoDiv">  <!--div para dejar espacio entre el body y el footer-->
+</div>
+<!--inicio del footer-->
+<footer class="bg-dark text-white  pt-5 pb-4">  <!--estilos para textos y contenedores-->
+  <div class="container text-center text-md-left">  <!--contenedor del footer-->
+    <div class="row text-center text-md-left">    <!--columna para los autores-->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"> <!--columna para los autores-->
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+          Autores 
+        </h5>
+        <p>
+          <a href="#" class="text-white decorationNone">  <!--autor 1-->
+            Oscar David Moreno Cote
+          </a>
+        </p>
+        <p>
+          <a href="#" class="text-white decorationNone">  <!--autor 2-->
+            Nicolas Sarmiento Gómez
+          </a>
+        </p>
+        <p>
+          <a href="#" class="text-white decorationNone">    <!--autor 3-->
+            Jhon Mario Almendrales Carreño 
+          </a>
+        </p>
+      </div>
+
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"> <!--columna para los contactos-->
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+          Contactos
+        </h5>
+        <p>
+          <a href="#" class="text-white decorationNone">
+            WhatsApp: 322 259 2280
+          </a>
+        </p>
+        <p>
+          <a href="#" class="text-white decorationNone">
+            Correo: omoreo7@udi.edu.co
+          </a>
+        </p>
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">   <!--columna para las dirrecciones-->
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+          Dirrección
+        </h5>
+        <p>
+          <a href="#" class="text-white decorationNone">
+            UDI: Calle 9 No. 23-55-Bucaramanga
+          </a>
+        </p>
+        <p>
+          <a href="#" class="text-white decorationNone">
+            Cll 204a #38a-27-Floridablanca
+          </a>
+        </p>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">   <!--columna para las redes sociales-->
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+          Siguenos
+        </h5>
+        <p>
+          <a href="#" class="text-white decorationNone">
+            <img src="Images/instagram.png" alt="logoInstagram">
+            oscar_cotte7
+          </a>
+        </p>
+        <p>
+          <a href="#" class="text-white decorationNone">
+            <img src="Images/instagram.png" alt="logoInstagram">
+            udi_oficial
+          </a>
+        </p>
+      </div>
+      <div class="row  align-items-center">   <!--fila para agregar el copyright-->
+        <div class="col-md-7 col-lg-8">   <!--columna para agrefar el copyright-->
+          <p>
+            Copyright ©2024 All rights reserved by:
+            <a class="decorationNone" href="#">
+              <strong class="text-warning">   <!--texto para resaltar-->
+                TheCotte
+              </strong>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>   <!--link para tener las funcionalidades de javaScript de Bootstrap-->
+</body>
+</html>
