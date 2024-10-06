@@ -136,3 +136,12 @@ body{
     background-image: url(images/imgberenjena66.jpg);
     background-attachment: fixed;
 }
+
+
+/*//////////estilos para la pagina eliminar producto///////////////*/
+
+.check-input{
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+}

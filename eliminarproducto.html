@@ -53,13 +53,13 @@
       </div>
       
       <!--Texto de bienvenida a opciones de inventario-->
-      <div class=" d-flex  align-items-center mt-5 text-black card shadow-sm opacity-50 alturaContenedor">  <!--Contenedor con estilos -->
-        <div class="card-body justify-content-center">  <!--div para agregar el mensaje de bienvenida-->
+      <div class=" d-flex  align-items-center mt-5 text-black card shadow-sm opacity-75 alturaContenedor">  <!--Contenedor con estilos -->
+        <div class="card-body justify-content-center opacity-100">  <!--div para agregar el mensaje de bienvenida-->
             <h1 class="text-center">
-                Bienvenido a 
+                Bienvenido,
             </h1>
             <h1 class="text-center">
-                Eliminar un producto del Inventario
+              Puedes Eliminar Un Producto
             </h1>
         </div>
       </div>
@@ -70,50 +70,52 @@
       <!-- Después del contenido de bienvenida -->
 
       <div class="container card shadow-sm p-4 mt-5 bg-light mb-5">
-            <h3 class="text-center">Lista de Productos</h3>
+            <h3 class="text-center text-decoration-underline">Lista de Productos</h3>
+            <br>
+            <br>
             <form id="formEliminar">
             <!-- Tabla de una sola columna para los nombres de los productos -->
                 <table class="table table-striped">
                     <thead>
                         <tr>
                             <th><h3>Seleccionar</h3></th>
-                            <th><h3>Producto</h3></th>
+                            <th><h3>Nombre</h3></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>
-                                <input type="checkbox" name="producto" value="Producto1">
+                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
                             </td>
                         <td><h3>Producto 1</h3></td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="checkbox" name="producto" value="Producto2">
+                                <input class="check-input" type="checkbox" name="producto" value="Producto2">
                             </td>
                             <td><h3>Producto 2</h3></td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="checkbox" name="producto" value="Producto1">
+                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
                             </td>
                         <td><h3>Producto 3</h3></td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="checkbox" name="producto" value="Producto1">
+                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
                             </td>
                         <td><h3>Producto 4</h3></td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="checkbox" name="producto" value="Producto1">
+                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
                             </td>
                         <td><h3>Producto 5</h3></td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="checkbox" name="producto" value="Producto1">
+                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
                             </td>
                         <td><h3>Producto 6</h3></td>
                         </tr>
@@ -124,7 +126,7 @@
                 <!-- Botones de acciones -->
                 <div class="d-flex justify-content-center gap-2 mt-4" >
                     <a href="PaginaPrincipal.html">
-                    <button type="button" class="btn btn-primary" onclick="consultarInventario()">
+                    <button type="button" class="btn btn-primary " onclick="consultarInventario()">
                         Consultar Inventario
                     </button>
                     </a>
@@ -144,18 +146,6 @@
                 alert('Productos eliminados.');
             });
         </script>
-
-      
-      
-      <!--boton de alerta flotante-->
-      <div class="buttonsNetwork d-flex">                            <!--definiendo el boton-->
-        <a class="buttonsNetwork_list" href="notificaciones.html">             <!--link del boton-->
-          <i class="" aria-hidden="true"><img src="Images/despertador.png" alt=""></i>  <!--icono representativo del boton(reloj)-->
-          <p class="socialMediaP justify-content-center">
-            ¡Mira tus alertas!
-          </p>
-        </a>
-      </div>
       
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
