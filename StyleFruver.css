@@ -145,3 +145,23 @@ body{
     width: 2rem;
     height: 2rem;
 }
+
+
+/*//////////estilos para la pagina historialInventario///////////////*/
+.bg-image7{
+    background-image: url(Images/img555.jpg);       /*imagen de fondo*/
+    background-attachment: fixed;       /*imagen estatica*/
+}
+
+.alturaTabla2{      /*altura de la tabla */
+    height: 400px;
+    width: 200px;
+    overflow-y: auto;
+}
+
+.alturaTabla3{      /*estilos de la tabla datos*/
+    width: 370px;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: auto;
+}
