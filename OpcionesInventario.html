@@ -117,14 +117,47 @@
         </div>
       </div>
     </div>
+
 <!--boton de alerta flotante-->
-<div class="buttonsNetwork d-flex">                            <!--definiendo el boton-->
-      <a class="buttonsNetwork_list" href="#">             <!--link del boton-->
-        <i class="" aria-hidden="true"><img src="Images/despertador.png" alt="#"></i>  <!--icono representativo del boton(reloj)-->
-        <p class="socialMediaP justify-content-center">
-          ¡Mira tus alertas!
-        </p>
-      </a>
+<!--boton de alerta flotante-->
+<div class="buttonsNetwork d-flex">
+  <a class="buttonsNetwork_list" href="#" data-bs-toggle="modal" data-bs-target="#alertModal">
+    <i class="" aria-hidden="true">
+      <img src="Images/despertador.png" alt="Icono de Alerta">
+    </i>
+    <p class="socialMediaP justify-content-center"> ¡Mira tus alertas! </p>
+  </a>
+</div>
+
+<!-- Modal de Alertas -->
+<div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="alertModalLabel">Alertas de Rotación de Inventario</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Aquí puedes agregar las alertas que desees mostrar -->
+        <ul>
+          <li>
+            <h3>
+              Producto A está por rotar en 3 días
+            </h3>
+          </li>
+          <li>
+            <h3>
+              Producto B está por rotar mañana
+            </h3>
+          </li>
+          <!-- Agrega más productos aquí según sea necesario -->
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="espaciadoDiv2">  <!--div para dejar espacio entre el body y el footer-->
