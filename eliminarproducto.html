@@ -59,7 +59,7 @@
                 Bienvenido,
             </h1>
             <h1 class="text-center">
-              Puedes Eliminar Un Producto
+              a Eliminar un Producto
             </h1>
         </div>
       </div>
@@ -82,43 +82,11 @@
                             <th><h3>Nombre</h3></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="productos-lista">
                         <tr>
-                            <td>
-                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
-                            </td>
-                        <td><h3>Producto 1</h3></td>
+                            
                         </tr>
-                        <tr>
-                            <td>
-                                <input class="check-input" type="checkbox" name="producto" value="Producto2">
-                            </td>
-                            <td><h3>Producto 2</h3></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
-                            </td>
-                        <td><h3>Producto 3</h3></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
-                            </td>
-                        <td><h3>Producto 4</h3></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
-                            </td>
-                        <td><h3>Producto 5</h3></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input class="check-input" type="checkbox" name="producto" value="Producto1">
-                            </td>
-                        <td><h3>Producto 6</h3></td>
-                        </tr>
+                      
                         <!-- Para agregar más filas-->
                     </tbody>
                 </table>
@@ -130,7 +98,7 @@
                         Consultar Inventario
                     </button>
                     </a>
-                    <button type="submit" class="btn btn-danger">
+                    <button type="submit" class="btn btn-danger"  id="eliminarSeleccionados">
                         Eliminar Seleccionados
                     </button>
                 </div>
@@ -139,7 +107,6 @@
 
         <!--scripts para manejar las acciones -->
         <script>
-
             document.getElementById('formEliminar').addEventListener('submit', function(event) {
                 event.preventDefault();
                 // Lógica para eliminar productos seleccionados
@@ -150,6 +117,7 @@
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
           crossorigin="anonymous"></script>   <!--link para tener las funcionalidades de javaScript de Bootstrap-->
+          <script src="JS/eliminarProducto.js"></script>
       </body>
       
       <!--inicio del footer-->

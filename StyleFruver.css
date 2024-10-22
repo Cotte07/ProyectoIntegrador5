@@ -4,7 +4,7 @@ body{
     background-size: cover;     /*Ajusta la imagen a toda la pantalla*/
     background-repeat: no-repeat;   /*la imagen no se repite en caso de que no se ajuste a la pantalla*/
     background-position: center;    /*centrar la imagen*/
-}
+ }
 
 /*////////estilos del icono social media flotante/////////////*/
 .socialMediaP{                      /*estilo de letra del socialMedia*/
@@ -164,4 +164,9 @@ body{
     overflow-x: auto;
     overflow-y: auto;
     height: auto;
+}
+
+.cursorMano{        /*estilo para cambiar el cursor por una manita*/
+    cursor: pointer;
+    color: black;
 }
